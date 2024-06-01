@@ -1,7 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 // ham tinh luy thua số lớn
+/*
+int power(int x, int n){
+    if (n == 0){
+        return 1;
+    }
+    return x * power(x, n - 1);
+}
 
+*/
 
 long long nhan(long long n){
     return n*n;
